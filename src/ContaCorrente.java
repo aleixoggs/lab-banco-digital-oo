@@ -10,5 +10,7 @@ public class ContaCorrente extends Conta {
 		System.out.println("=== Extrato Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
-	
+	public void conferirRendimento(int dias){
+		System.out.println("A Conta Corrente não possui rendimento, apenas a conta poupança");
+	}
 }
